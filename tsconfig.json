@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2019"
+    ],
+    "pretty": true,
+    "strict": true,
+    "outDir": "dist",
+    "newLine": "lf",
+    "module": "CommonJS",
+    "target": "ES2019",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "isolatedModules": true,
+    "noImplicitReturns": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "noImplicitOverride": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "useDefineForClassFields": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noPropertyAccessFromIndexSignature": true,
+  },
+  "include": [
+    "src"
+  ],
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "experimentalResolver": true
+  }
+}
