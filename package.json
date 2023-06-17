@@ -1,6 +1,6 @@
 {
   "name": "zoxios-nock",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nock creation using zoxios definitions",
   "engines": {
     "node": ">=14.17"
